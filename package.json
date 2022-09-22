@@ -1,16 +1,25 @@
 {
   "name": "alura-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto utilizado no curso da Alura",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.15"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alura-cursos/2404-api-node-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alura-cursos/2404-api-node-express/issues"
+  },
+  "homepage": "https://github.com/alura-cursos/2404-api-node-express#readme"
 }
